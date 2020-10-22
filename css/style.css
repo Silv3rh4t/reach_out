@@ -1,4 +1,12 @@
 .link{
   color: black;
-  
+  text-decoration: underline;
+}
+
+.badge{
+  font-size:30px;
+}
+
+.text-primary{
+  font-size: 30px;
 }
