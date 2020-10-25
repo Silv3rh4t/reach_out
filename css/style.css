@@ -7,7 +7,7 @@
   font-size:30px;
 }
 
-.text-primary{
+.text-secondary{
   font-size: 30px;
   text-align: right;
 }
@@ -17,4 +17,14 @@
   border-top: 3px solid black;
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
+}
+.masthead-heading{
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+.pro-head{
+  font-family: 'Roboto', sans-serif;
+}
+.masthead-subheading{
+  font-family: 'Syne Mono', monospace;
+  font-size: 2rem !important;
 }
