@@ -153,3 +153,13 @@ header.masthead .bg-circle-4 {
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
 }
+
+.content-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.link{
+  color:black;
+  text-decoration: underline;
+}

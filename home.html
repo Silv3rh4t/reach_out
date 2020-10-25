@@ -40,7 +40,7 @@
               <a class="nav-link" href="#contact">Activities</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Help</a>
+              <a class="nav-link" onclick="showContact()" href="#contact">Help</a>
             </li>
           </ul>
         </div>
@@ -178,7 +178,52 @@
     </header>
 
 
+    <section class="content-section bg-secondary" id="contact" hidden>
+      <div class="container">
+        <div class="content-section-heading">
+          <h2 class="mb-5">Contact Us</h2>
+        </div>
 
+        <div class="row">
+          <div class="col-6 p-5">
+            <p><i class="fa fa-phone"></i>: <a class="link" href="tel:7007762470">+91-700-776-2470 </a></p>
+            <p><i class="fa fa-envelope"></i>: <a class="link" href="mailto:example@example.com">example@example.com </a></p>
+          </div>
+          <div class="col-6">
+            <form>
+              <div class="form-group">
+                <label for="namef">Name *</label>
+                <input type="text" class="form-control" id="namef" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <label for="emailf">Email Address *</label>
+                <input type="email" class="form-control" id="emailf" placeholder="Email Address">
+              </div>
+              <div class="form-group">
+                <label for="mobf">Mobile Number *</label>
+                <input type="text" class="form-control" id="mobf" placeholder="Mobile Number">
+              </div>
+              <div class="form-group">
+                <label for="msgf">Message *</label>
+                <textarea rows="4" class="form-control" id="msgf">Enter your message
 
+                </textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- Footer -->
+    <footer class="py-5 bg-black">
+      <div class="container">
+        <p class="m-0 text-center text-white small">Copyright &copy; Reach Out Org 2020></a></p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <script type="text/javascript" src="js/home.js"></script>
   </body>
 </html>

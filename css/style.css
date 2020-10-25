@@ -11,3 +11,10 @@
   font-size: 30px;
   text-align: right;
 }
+
+.line{
+  width: 70%;
+  border-top: 3px solid black;
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
