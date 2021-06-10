@@ -1,3 +1,12 @@
+/*$('#navbar').hide();
+$(window).scroll(function(){
+  if(window.scrollY==0){
+    $('#navbar').hide();
+  } else {
+    $('#navbar').show();
+  }
+});*/
+
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);

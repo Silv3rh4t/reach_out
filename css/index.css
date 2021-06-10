@@ -1,0 +1,53 @@
+.link{
+  color: black;
+  text-decoration: underline;
+}
+
+.badge{
+  font-size:30px;
+}
+
+.text-secondary{
+  font-size: 30px;
+}
+
+.line{
+  width: 70%;
+  border-top: 3px solid black;
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+.masthead-heading{
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+.pro-head{
+  font-family: 'Catamaran', sans-serif;
+  text-align: center !important;
+}
+.masthead-subheading{
+  font-family: 'Catamaran', serif;
+  font-size: 2rem !important;
+  text-shadow: 2px 2px grey;
+}
+
+.hhh{
+  background-color: black;
+}
+
+.f-line{
+  width: 90%;
+  border-top: 1px solid grey;
+}
+.bg-custom{
+   background-image: linear-gradient(#715061, #813525);
+   /*#FDB255, #813525, #715061*/
+}
+.contacts{
+  list-style: none;
+  color:white;
+  float: right;
+  margin-right: -20px;
+}
+.img-footer{
+  padding-bottom:20px;
+}

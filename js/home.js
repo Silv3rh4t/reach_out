@@ -1,3 +1,3 @@
-function showContact(){
-  document.getElementById("contact").hidden = false;
+function msgShow(){
+  document.getElementById('inbox').hidden=!document.getElementById('inbox').hidden;
 }
